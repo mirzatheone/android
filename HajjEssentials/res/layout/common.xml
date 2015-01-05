@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_02"
+    android:orientation="vertical" >
+
+    <!--
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       
+        >
+    </ListView>
+    -->
+
+    <TextView
+        android:id="@+id/tvSt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="stuff are necessary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp" 
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvSt2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:gravity="left"
+            android:text="stuff are necessary"
+            android:background="@drawable/back"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- android:background="@drawable/back" -->
+
+</LinearLayout>

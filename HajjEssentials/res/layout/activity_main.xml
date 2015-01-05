@@ -1,0 +1,88 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_01"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+		android:gravity="center_horizontal"       
+        android:text="হা জ্ জ  সহায়িকা "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" /> -->
+		
+    
+    <Button
+        android:id="@+id/Hajj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA27A094"
+        
+        android:text="হা জ্ জ  সম্পর্কিত নির্দেশনা"
+        android:textColor="#FFFFFF" 
+        />
+   <!--  android:layout_below="@+id/tv1" -->
+
+    <Button
+        android:id="@+id/Number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE09B2B"
+        android:layout_below="@+id/btn1"
+        android:text="গুরুত্বপূর্ণ  নাম্বার "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA27A094"
+        android:layout_below="@+id/btn2"        
+        android:text="নামাজের সময়সূচী "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE09B2B"
+        android:layout_below="@+id/btn3"        
+        android:text="আপনার অবস্থান  "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Video"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA27A094"
+        android:layout_below="@+id/btn4"
+        android:text="ভিডিও "
+        android:textColor="#FFFFFF" />
+    
+    <Button
+       	android:id="@+id/FlashLight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE09B2B"
+        android:layout_below="@+id/btn4"
+        android:text="FlashLight "
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
+</LinearLayout>

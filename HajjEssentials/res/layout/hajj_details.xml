@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_02"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <!-- <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="হাজজ  সম্পর্কিত নির্দেশনা "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1E90FF" /> -->
+
+        <Button
+            android:id="@+id/Hajj"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:background="#AA27A094"
+            android:text="হা জ্ জ  কি ?"
+            android:textColor="#FFFFFF" />
+ 			
+        	<!-- android:layout_below="@+id/tvDetail" -->
+        
+        <Button
+            android:id="@+id/Stuffs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:background="#AAE09B2B"
+            android:text="প্রয়োজনীয়  মালপত্র "
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/Ihram"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn2"
+            android:background="#AA27A094"
+            android:text="ইহরাম  "
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/IhramNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn3"
+            android:background="#AAE09B2B"
+            android:text="ইহরাম অবস্থায় যেসব কাজ  নিষিদ্ধ "
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/IhramNes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn4"
+            android:background="#AA27A094"
+            android:text="ইহরাম সম্পর্কে জরুরি বিষয় "
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/Kafela"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn4"
+            android:background="#AAE09B2B"
+            android:text="কাফেলা "
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

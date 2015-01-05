@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+     <!-- TextView
+     android:id="@+id/tvTitle"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginTop="10dp" 
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     
+     android:text="হা জ্ জ  সম্পর্কিত নির্দেশনা "
+     />  --> 
+    
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       
+        >
+    </ListView>
+    
+    
+    <!-- <TextView
+     android:id="@+id/tvHajj"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="হাজ্জ  কি ?"
+     />
+    <TextView
+     android:id="@+id/tvStuffs"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:text="প্রয়োজনীয়  মালপত্র"
+     />
+    <TextView
+     android:id="@+id/tvIhram"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="ইহরাম  "
+     />
+    <TextView
+     android:id="@+id/tvIhramNo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:text="ইহরাম অবস্থায় যেসব  নিষিদ্ধ "
+     />
+    <TextView
+     android:id="@+id/tvIhramYes"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="ইহরাম সম্পর্ক জরুরী  বিষয় "
+     />
+    <TextView
+     android:id="@+id/tvKafela"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="কাফেলা "
+     /> -->
+
+</LinearLayout>
