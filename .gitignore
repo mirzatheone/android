@@ -24,3 +24,6 @@ proguard/
 
 # Log Files
 *.log
+/HajjEssentials/.classpath
+/HajjEssentials/.project
+/HajjEssentials/.settings/org.eclipse.core.resources.prefs
